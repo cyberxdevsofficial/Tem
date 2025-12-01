@@ -1,12 +1,7 @@
-@font-face {
-  font-family: "CustomFont";
-  src: url("/fonts/custom-font.ttf") format("truetype");
-}
-
 body {
   margin: 0;
-  font-family: "CustomFont", Arial, sans-serif;
-  background: url("/bg.jpg") no-repeat center center fixed;
+  font-family: 'Roboto', sans-serif;
+  background: url('https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
   background-size: cover;
   color: #fff;
 }
