@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("/fonts/custom-font.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "CustomFont", Arial, sans-serif;
+  background: url("/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+  background: rgba(0,0,0,0.6); /* Dark overlay */
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 20px 0 10px;
+}
+
+.email {
+  color: #00ffcc;
+}
+
+.btn {
+  padding: 12px 25px;
+  margin: 10px;
+  background-color: #1a1a1a;
+  border: 2px solid #00ffcc;
+  color: #00ffcc;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00ffcc;
+  color: #1a1a1a;
+}
+
+.inbox {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.inbox li {
+  background: #111;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  text-align: left;
+}
